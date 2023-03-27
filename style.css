@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    /* padding: 2vh 3vh; */
+    /* border-bottom: 1px solid black; */
+    position: absolute;
+    
+    
+}
+.container >nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0vh 3vh;
+    width: 100%;
+    height: 11vh;
+    top: -1vh;
+    position: fixed;
+    border-bottom: solid black 3px;
+    background-color: #fff;
+    
+}
+nav>h1{
+    color: orange;
+    font-size: 4vh;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+}
+nav>h1>span{
+    font-size: 2vh;
+    font-weight: 200;
+}
+nav>ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav > ul >li{
+    padding: 1vmax;
+}
+nav>span{
+    padding: 10px;
+}
+nav > span> i{
+    padding: 1vh;
+    
+}
+.class1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10vh;
+    margin-top: 5vh;
+    /* position: relative; */
+    
+}
+.class1 h1{
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: 900;
+ font-size: 6vh;
+}
+.class1 h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vh;
+    font-weight: 300;
+}
+.class2{
+    display: flex;}
+
+
+.class21 h1{
+    font: 600 7vh "gilroy";
+   margin: 5vh;
+
+}
+.class21 p{
+font: 200 2vh "gilroy";
+margin: 5vh;
+text-align: justify;
+}
+
+.class22 img{
+    width: 40vmax;
+    height: 30vmax;
+    margin: 3vh;
+
+}
+.class3{
+    display: flex;
+}
+.class31 img{
+    width: 40vmax;
+    height: 30vmax;
+    margin: 3vh;
+}
+.class32 h1{
+    font: 600 7vh "gilroy";
+   margin: 5vh;
+
+}
+.class32 p{
+font: 200 2vh "gilroy";
+margin: 5vh;
+text-align: justify;
+}
+.class4{
+    display: flex;}
+
+
+.class41 h1{
+    font: 600 7vh "gilroy";
+   margin: 5vh;
+
+}
+.class41 p{
+font: 200 2vh "gilroy";
+margin: 5vh;
+text-align: justify;
+}
+
+.class42 img{
+    width: 40vmax;
+    height: 30vmax;
+    margin: 3vh;
+
+}
+.content{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(5, 3, 3);
+   color: white;
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+}
+.content h1{
+    font: 800 4vh "gilroy";
+    padding-left: 4vh;
+}
+.content button{
+     background-color: orange;
+     padding: 1vh 1vh ;
+     font-size: 2vh;
+     font-weight: 300;
+}
+.content input{
+    padding: 1vh 1vh ;
+}
